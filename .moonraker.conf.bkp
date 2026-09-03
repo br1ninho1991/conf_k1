@@ -66,7 +66,7 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
-[power tomada_k1]
+[power Shelly]
 type = shelly
 address = 192.168.1.115
 bound_services = klipper
