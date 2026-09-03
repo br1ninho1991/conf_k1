@@ -66,6 +66,11 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
+[power tomada_k1]
+type = shelly
+address = 192.168.1.115
+bound_services = klipper
+
 [update_manager ]
 type = git_repo
 path = /usr/data/moonraker-obico/scripts/..
