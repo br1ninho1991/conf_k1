@@ -69,6 +69,8 @@ path = /usr/data/mainsail
 [power tomada_k1]
 type = shelly
 address = 192.168.1.115
+off_when_shutdown = True
+off_when_shutdown_delay = 15
 bound_services = klipper
 
 [update_manager ]
