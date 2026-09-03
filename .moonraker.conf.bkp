@@ -70,6 +70,7 @@ path = /usr/data/mainsail
 type = shelly
 address = 192.168.1.115
 bound_services = klipper
+timer = 15
 
 [update_manager ]
 type = git_repo
