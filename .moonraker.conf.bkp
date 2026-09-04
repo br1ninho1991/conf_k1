@@ -72,12 +72,3 @@ address = 192.168.1.115
 bound_services = klipper
 timer = 15
 
-[update_manager ]
-type = git_repo
-path = /usr/data/moonraker-obico/scripts/..
-origin = 
-env = /usr/data/moonraker-obico/scripts/../../moonraker-obico-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-
